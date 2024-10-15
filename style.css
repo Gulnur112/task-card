@@ -1,0 +1,39 @@
+body{
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background-color: #23104d;
+}
+.task-card {
+    background-color: #1b1d5b;
+    color: #fff;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px;
+
+}
+.header h3 {
+ font-size: 18px;
+ margin-bottom: 5px;
+}
+.date{
+    font-size: 12px;
+    color: #999;
+    margin-bottom: 15px;
+}.photos {
+    display: flex;
+    justify-content: left;
+    margin-top: 20px;
+}
+
+.photos img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+    
+
